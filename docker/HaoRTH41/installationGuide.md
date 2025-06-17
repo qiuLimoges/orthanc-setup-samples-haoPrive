@@ -12,6 +12,16 @@ echo "/dev/sda2 /mnt/orthanc-storage ext4 defaults,nofail 0 2" | sudo tee -a /et
 sudo mount -a
 ```
 
-```
+Docker compose command:
+monter et run une configuration:
 
 ```
+docker compose up -d
+```
+
+demonter et stop une configuration:
+
+```
+docker compose down
+```
+
